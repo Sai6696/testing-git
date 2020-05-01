@@ -9,7 +9,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="testing-gitFlow" doc:id="4034fca5-7b27-4e6b-a7fa-b862ac867050" >
 		<http:listener doc:name="Listener" doc:id="fe5ff690-1c16-4b06-9c96-6943dd78e7f4" config-ref="HTTP_Listener_config" path="/git"/>
-		<set-payload value="..........................&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;GIT &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;..................." doc:name="Set Payload" doc:id="283217e2-8db2-48e2-b832-f1b2daad819a" />
+		<set-payload value="..........................&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;GIT &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;................." doc:name="Set Payload" doc:id="283217e2-8db2-48e2-b832-f1b2daad819a" />
 		<logger level="INFO" doc:name="Logger" doc:id="a13de6f5-05f3-4470-b415-990a9a6be5a7" message="#[payload]"/>
 	</flow>
 </mule>
